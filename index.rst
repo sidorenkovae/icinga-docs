@@ -3,41 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to icinga's documentation!
-==================================
+Icinga в ОЗ ОДУ Сибири
+======================
+
+Здесь собрана документация по ЛСМ Icinga, используемой для расширения функционала ЕСМ(единая система мониторинга).
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
    
+   preface
    example1
    example2
-   
-*test1 1*
-
-**TesT 2**
-
-``code sample
-string 2``
-
-.. warning:: Here be dragons!
-
-   Procees with caution!
 
 
-#. This is numbered list
-#. item 2
-#. item 3.
-
-
-*  bullet 1.
-
-*  bullet second, Second bullet
-   use two lines.
-
-Indices and tables
-==================
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
