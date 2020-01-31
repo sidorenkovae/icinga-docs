@@ -27,6 +27,8 @@ release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 
+master_doc = 'index'
+
 # The encoding of source files.
 source_encoding = 'utf-8-sig'
 
@@ -78,3 +80,4 @@ latex_elements = {
 'fontenc': '\usepackage[T1,T2A]{fontenc}',
 'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
 }
+
