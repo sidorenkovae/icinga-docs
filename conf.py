@@ -62,3 +62,19 @@ html_theme = 'alabaster'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+#'papersize': 'letterpaper',
+
+# The font size ('10pt', '11pt' or '12pt').
+#'pointsize': '10pt',
+
+# Additional stuff for the LaTeX preamble.
+'preamble': '\\usepackage[utf8]{inputenc}',
+'babel': '\\usepackage[russian]{babel}',
+'cmappkg': '\\usepackage{cmap}',
+'fontenc': '\usepackage[T1,T2A]{fontenc}',
+'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
+}
