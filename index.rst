@@ -13,7 +13,7 @@ Icinga в ОЗ ОДУ Сибири
    :caption: Contents:
    
    preface
-   example1
+   initial
    example2
 
 
